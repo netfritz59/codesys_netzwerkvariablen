@@ -1,0 +1,20 @@
+<GVL>
+  <Declarations><![CDATA[VAR_GLOBAL
+	KNX_0_3_0:INT;
+    KNX_0_3_1:BOOL;
+	KNX_0_3_2:BOOL;
+END_VAR]]></Declarations>
+  <NetvarSettings Protocol="UDP">
+    <ListIdentifier>2</ListIdentifier>
+    <Pack>False</Pack>
+    <Checksum>False</Checksum>
+    <Acknowledge>False</Acknowledge>
+    <CyclicTransmission>False</CyclicTransmission>
+    <TransmissionOnChange>True</TransmissionOnChange>
+    <TransmissionOnEvent>False</TransmissionOnEvent>
+    <Interval>T#50ms</Interval>
+    <MinGap>T#20ms</MinGap>
+    <EventVariable>
+    </EventVariable>
+  </NetvarSettings>
+</GVL>
